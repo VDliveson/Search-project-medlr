@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+ */
+
+body {
+  overflow-x: hidden;
+	height: 100vh;
+	/* background: rgb(17, 0, 255); */
+}
+
+.dropdown-header {
+	background: rgb(30 66 159 / var(--tw-bg-opacity));
+}
+
+.flow-root {
+  background: linear-gradient(to right, rgb(5, 117, 230), rgb(2, 27, 121));
+}
+
+.flow-root:hover {
+	background-color: #2234ae;
+	background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
+}
+
+.card-item:hover{
+  background-color: rgb(50, 57, 94)
+}
